@@ -20,8 +20,7 @@ from .icrs import ICRS
 from .gcrs import GCRS
 from .cirs import CIRS
 from .hcrs import HCRS
-from .utils import (get_jd12, aticq, atciqz, get_cip, prepare_earth_position_vel,
-                    get_offset_sun_from_barycenter)
+from .utils import get_jd12, aticq, atciqz, get_cip, prepare_earth_position_vel, get_offset_sun_from_barycenter
 
 
 # First the ICRS/CIRS related transforms
